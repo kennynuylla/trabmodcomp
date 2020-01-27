@@ -1,0 +1,4 @@
+Tempo: 28:01 min
+Memória: 110 MB
+CPU: 29%
+Custo: 274

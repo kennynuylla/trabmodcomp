@@ -1,0 +1,58 @@
+==> CQtdPortas: 
+	*Cada porta adicionava custo 1
+	*As entradas tinham custo 0
+	*Adicionando entradas repetitivas e desnecessárias
+	*Trouxe circuitos visivelmente mais caros e complexos, embora tenha reduzido a quantidade absoluta de portas
+	*Não englobava a possibilidade de ter entradas ligadas diretamente no VCC ou GND
+
+==> CCEF 1:
+	*Cada porta adicionava custo igual ao número de transistores para duas entradas (independente das entradas). No caso da NOT, igual ao número de transistores
+	*As entradas tinham custo 1
+	*Começou a reduzir o custo, mas ainda não representava o custo real, de modo que o algoritmo estava preferindo aumentar o número de entradas por porta
+	*Não englobava a possibilidade de ter entradas ligadas diretamente no VCC ou GND
+
+==> CCEF 2:
+	*Adicionados VCC e GND
+	*Mesmo problema do anterior
+	*Ao tentar incorporar VCC e GND, o algoritmo voltou a tender a aumentar o custo do circuito
+
+==> CCE 1:
+	*Adicionado o custo por entrada nas portas
+	*As entradas sozinhas têm custo 0
+	*Novo crossover
+	*Voltou a reduzir o custo
+	*Ainda demorava para convergir
+	*Folga para tamanho da população
+
+==> CCE 2:
+	*VCC e GND têm apenas 20% de chance de aparecer
+	*Tipos de mutação com probabilidades diferentes
+	*Houve progresso
+
+==> CCE 3:
+	*Remover a folga
+	*Aumentou o custo do circuito por perda da variabilidade genética
+	*Caso de 4597 abortado - Explodir  consumo de memória
+
+==> CCE 4:
+	*Taxa de limpeza adaptável -> é 1 para penalidades = 0
+	*Se colocado para 1 quando achar o primeiro circuito com 0 penalizações, pode explodir o consumo de memória. (118 de custo e aproximadamente 330 MB de memória consumidos)
+
+==> CCE 5:
+	*Taxa de limpeza adaptável -> 10 para penalidades = 0, 30 para 100 gerações sem melhora e mais de 0 penalidades e 20 para menos de 100 gerações sem melhora e 0 penalidades
+	*Com 1 minuto encontrou o circuito com custo 16
+	*27,8 MB de RAM ao término da execução
+
+==> CCE 6:
+	*Taxa de limpeza constante = 10
+	*47,1 MB de RAM ao término da execução
+	*Encontrou o custo 24
+	* Compensa manter a limpeza adaptável variável e maior que 1 para esse caso.
+	
+==> CCE 7:
+	*Voltei às configurações do CCE 5
+	*Encontrou o de custo 16 com cerca de 20 segundos
+
+==> CCE 8:
+	*Todas as entradas são instâncias da interface ITaxaAdaptavel, porém os valores foram mantidos os mesmos e constantes
+	*Chegou no 16  com 36 segundos

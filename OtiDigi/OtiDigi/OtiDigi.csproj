@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="AlgoritmoGenetico">
+      <HintPath>..\..\..\..\..\..\..\Pesquisas\Andamento\[2020] IAEE\Engines e Frameworks de IA\AlgoritmoGenetico\bin\Debug\netcoreapp3.0\AlgoritmoGenetico.dll</HintPath>
+    </Reference>
+    <Reference Include="CircuitoDigitalCombinacional">
+      <HintPath>..\..\..\..\..\..\..\Pesquisas\Andamento\[2020] IAEE\Estruturas de Dados\CircuitoDigitalCombinacional\bin\Debug\netcoreapp3.0\CircuitoDigitalCombinacional.dll</HintPath>
+    </Reference>
+    <Reference Include="OtiCircDigitais">
+      <HintPath>..\..\..\..\..\..\..\Pesquisas\Andamento\[2020] IAEE\Aplicacoes\OtiCircDigitais\bin\Debug\netcoreapp3.0\OtiCircDigitais.dll</HintPath>
+    </Reference>
+    <Reference Include="QuineMcCluskey">
+      <HintPath>..\..\..\..\..\..\..\Pesquisas\Andamento\[2020] IAEE\Outros Algoritmos\QuineMcCluskey\QuineMcCluskey\bin\Debug\netcoreapp3.0\QuineMcCluskey.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

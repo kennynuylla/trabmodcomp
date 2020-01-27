@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OtiDigi", "OtiDigi\OtiDigi.csproj", "{119D0632-11AE-4AE7-A7FD-8385A552CD7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{119D0632-11AE-4AE7-A7FD-8385A552CD7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{119D0632-11AE-4AE7-A7FD-8385A552CD7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{119D0632-11AE-4AE7-A7FD-8385A552CD7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{119D0632-11AE-4AE7-A7FD-8385A552CD7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B0FE1B14-6ADC-452E-90E1-C83635D83CBA}
+	EndGlobalSection
+EndGlobal

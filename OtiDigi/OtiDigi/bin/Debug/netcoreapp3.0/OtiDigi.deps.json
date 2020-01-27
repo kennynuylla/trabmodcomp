@@ -1,0 +1,81 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "OtiDigi/1.0.0": {
+        "dependencies": {
+          "AlgoritmoGenetico": "1.0.0.0",
+          "CircuitoDigitalCombinacional": "1.0.0.0",
+          "OtiCircDigitais": "1.0.0.0",
+          "QuineMcCluskey": "1.0.0.0"
+        },
+        "runtime": {
+          "OtiDigi.dll": {}
+        }
+      },
+      "AlgoritmoGenetico/1.0.0.0": {
+        "runtime": {
+          "AlgoritmoGenetico.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "CircuitoDigitalCombinacional/1.0.0.0": {
+        "runtime": {
+          "CircuitoDigitalCombinacional.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "OtiCircDigitais/1.0.0.0": {
+        "runtime": {
+          "OtiCircDigitais.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "QuineMcCluskey/1.0.0.0": {
+        "runtime": {
+          "QuineMcCluskey.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OtiDigi/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AlgoritmoGenetico/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CircuitoDigitalCombinacional/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OtiCircDigitais/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "QuineMcCluskey/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
